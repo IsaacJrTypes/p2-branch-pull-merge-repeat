@@ -12,7 +12,7 @@ Windows, Using VSCode
 	- In terminal, place git command
 - Navigation using mouse:
 	- In VSCode, right-click on desired directory file > Open in Integrated Terminal  
-	KDjfkldjflkdjfedofjelkmefed
+
 
 
 |Action|Git Command  | Notes |
