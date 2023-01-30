@@ -1,5 +1,3 @@
-<?php
-
 // known bugs:
 // * after submitting, if you enter a blank value, it will display an error.
 // * round result to 2 decimal places creates error
@@ -54,13 +52,13 @@ if (!isset($_POST['userInput'])) {
 
 ?>
 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="./css/styles.css" type="text/css" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
