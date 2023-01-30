@@ -1,3 +1,4 @@
+<?php
 // known bugs:
 // * after submitting, if you enter a blank value, it will display an error.
 // * round result to 2 decimal places creates error
