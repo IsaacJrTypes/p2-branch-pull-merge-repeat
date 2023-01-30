@@ -77,13 +77,13 @@ if (!isset($_POST['userInput'])) {
         <ul>
         <li><input type="radio" name="tempA" value="fahr" <?php if (isset($tempA) && $tempA == 'fahr') {
             echo 'checked="checked"';
-        } ?>> Fahrenheit</li>
+        } ?>> Fahrenheit (&#8457;)</li>
         <li><input type="radio" name="tempA" value="cel" <?php  if (isset($tempA) && $tempA == 'cel') {
             echo 'checked="checked"';
-        }?>> Celsius</li>
+        }?>> Celsius (&#8451;)</li>
         <li><input type="radio" name="tempA" value="kel"  <?php if (isset($tempA) && $tempA == 'kel') {
             echo 'checked="checked"';
-        }?>> Kelvin</li>
+        }?>> Kelvin (&#8490;)</li>
         </ul>
 
     <!-- Temp B here -->
@@ -91,13 +91,13 @@ if (!isset($_POST['userInput'])) {
         <ul>
         <li><input type="radio" name="tempB" value="fahr" <?php if (isset($tempB) && $tempB == 'fahr') {
             echo 'checked="checked"';
-        } ?>> Fahrenheit </li>
+        } ?>> Fahrenheit (&#8457;)</li>
         <li><input type="radio" name="tempB" value="cel" <?php if (isset($tempB) && $tempB == 'cel') {
             echo 'checked="checked"';
-        } ?>> Celsius</li>
+        } ?>> Celsius (&#8451;)</li>
         <li><input type="radio" name="tempB" value="kel" <?php if (isset($tempB) && $tempB == 'kel') {
             echo 'checked="checked"';
-        } ?>> Kelvin</li>
+        } ?>> Kelvin (&#8490;)</li>
         </ul>
     <input type="submit" value="Convert">
     <input type="button" onClick="window.location.href='<?php echo $_SERVER['PHP_SELF'] ?>'" value="Reset">
