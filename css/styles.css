@@ -1,0 +1,52 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    }
+    
+    body {
+        background:#ddd;
+    }
+    
+    form {
+        max-width:400px;
+        margin:20px auto;
+    }
+    
+    fieldset {
+        padding:10px;
+        border:1px solid thistle;
+    }
+    
+    label {
+        display:inline-block;
+        margin-bottom:10px;
+        font-weight:bold;
+        font-size:1.2em;
+        cursor: pointer;
+    }
+    
+    
+    input[type=radio] {
+        display:inline-block;
+        margin-bottom:20px;
+    }
+    
+    input[type=number] {
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    
+    
+    form ul {
+    margin-bottom:10px;
+    list-style-type:none;
+    }
+     
+    .result {
+        color:red;
+        font-style:italic;
+        font-size: 1.1em;
+        margin-top:15px;
+        text-align:center;
+    }
