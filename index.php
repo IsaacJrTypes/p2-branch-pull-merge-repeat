@@ -10,7 +10,7 @@
 //kelvin to celcius - K - 273.15 = C
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-    if (isset($_POST['userInput']) !=='' && isset($_POST['tempA']) && isset($_POST['tempB'])) {
+    if ($_POST['userInput'] !=='' && isset($_POST['tempA']) && isset($_POST['tempB'])) {
         $userInput = $_POST['userInput'];
         $tempA = $_POST['tempA'];
         $tempB = $_POST['tempB'];
