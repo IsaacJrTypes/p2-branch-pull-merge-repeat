@@ -1,11 +1,5 @@
 <?php
-// known bugs:
-// * after submitting, if you enter a blank value, it will display an error.
-## Resolved: line 19 and 42 handle blank value
-// * round result to 2 decimal places creates error
-## Resolved
-// * pressing convert with blank "Please enter a number" is no longer prompting error
-## Resolved
+
 //logic for Fahrenheit to Celcius, Celcius to Fahrenheit and Fahrenheit to Kelvin.
 
 //fahrenheit to celcius - (F - 32) * 5/9 = C
@@ -59,8 +53,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="./css/styles.css" type="text/css" rel="stylesheet">
-    <title>Document</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Temperature Converter 1.0</title>
 </head>
 <body>
     <form action="" method="POST">
