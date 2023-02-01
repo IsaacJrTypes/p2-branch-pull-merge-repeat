@@ -100,13 +100,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
     <div class="result">
     <?php
-                echo "<pre>";
-                echo var_dump($_POST);              
-                echo"</pre>";
-
-                if (!isset($result)) {
-                    echo 'blank';
-                } else {
+                if (isset($result)) {
                     echo $result;
                 }
 ?>

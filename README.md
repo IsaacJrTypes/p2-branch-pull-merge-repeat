@@ -3,7 +3,7 @@
 IT262 Project 2
 
 ## Git Commands
-Make sure git is installed by using git status. If terminal does not understand the command, then install git 
+Make sure git is installed by using `git version` in terminal. If no version found, then install git 
 
 
 Windows, Using VSCode
@@ -32,10 +32,10 @@ Windows, Using VSCode
 
 
 [^1]:  Workflow should be: 
-	 1. Pull
+	 1. Pull from main branch
 	 2. Checkout your branch w/ commits
 	 3. Merge main 
-	 4. Push branch to origin.   
+	 4. Push branch to origin <your-branch-name>.   
      5. Initiate **pull request on github**
 	- Doing it this way will reduce merge conflicts
 
